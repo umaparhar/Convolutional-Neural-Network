@@ -5,7 +5,7 @@ To Train: python train_miniplaces.py --resume ./outputs/checkpoint.pth.tar
 
 To Evaluate: python eval_miniplaces.py --load ./outputs/model_best.pth.tar
 
-To run model with different configurations: 
+To train model with different configurations: 
 --epochs: number of total epochs to run
 --lr: initial learning rate
 --batch-size: number of images within a mini-batch
